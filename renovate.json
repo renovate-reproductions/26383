@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": "pypi",
+      "registryUrls": ["https://download.pytorch.org/whl/nightly/cpu"]
+    }
+  ]
+}
