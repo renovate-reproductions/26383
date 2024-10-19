@@ -5,7 +5,7 @@
       "matchDatasources": ["pypi"],
       "matchPackageNames": ["torch"],
       "registryUrls": ["https://download.pytorch.org/whl"],
-      "allowedVersions": "/\\d+\\.\\d+\\.\\d+/"
+      "allowedVersions": "/^\\d+\\.\\d+\\.\\d+$/"
     }
   ]
 }
