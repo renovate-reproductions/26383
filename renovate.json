@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchDatasources": "pypi",
-      "registryUrls": ["https://download.pytorch.org/whl/torch"]
+      "registryUrls": ["https://download.pytorch.org/whl"]
     }
   ]
 }
