@@ -2,8 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchDatasources": "pypi",
-      "registryUrls": ["https://download.pytorch.org/whl"]
+      "matchDatasources": ["pypi"],
+      "matchPackageNames": ["torch"],
+      "registryUrls": ["https://download.pytorch.org/whl"],
+      "allowedVersions": "/\\d+\\.\\d+\\.\\d+/"
     }
   ]
 }
